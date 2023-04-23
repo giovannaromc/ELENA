@@ -1,0 +1,264 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../img/fondo_body.png);
+}
+
+.imagenlogoprincipal{
+  width: 35%;
+  height: 20%;
+}
+
+/* Es el padre y los siguientes respetan sus reglas*/
+header{
+  width: 100%;
+  height: 80px;
+}
+
+header nav{
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(90deg, rgba(144,235,232,1) 45%, rgba(199,228,153,1) 100%);
+}
+
+header nav .nav-right-section{
+  color: black;
+  width: 600px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .nav-left-section{
+  color: black;
+  width: 600px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  align-items: start;
+}
+
+.nav-left-section .ul .li .h5{
+  margin-right: 10%;
+  text-align: left;
+}
+
+ul li {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 13pt;
+  color: black;
+  }
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  text-anchor: black;
+  color: black;
+}  
+
+a:link {
+  color:black;
+}
+
+a:visited {
+  color: rgb(5, 5, 5);
+}
+
+nav.nav-right-section{
+  margin-right: 25px;
+  color: rgb(21,21,21);
+}
+
+nav .nav-right-section .menu{
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5%; 
+} 
+  
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  zoom: 90%;
+}
+  
+.description {
+  display: flex;
+  flex-direction: column;
+  vertical-align: text-top;
+  justify-content: center;
+  background-position: center bottom;
+  padding: 20px;
+  background-image: url(../img/imagenfondo.png);
+}
+
+.description .businessdescription{
+  text-align: center;
+  padding-left: 25%;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 85%;
+  font-size: 14pt;
+}
+
+.titlesection{
+  color:rgb(0 0 0);
+  text-align: center; 
+  font-size: 25pt; 
+  margin-top: 3%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 5%;
+}
+
+.card {
+  width: 30%;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 60px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card-text {
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.card-text h3 {
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-size: 14.5pt;
+}
+
+.card-text p {
+  margin-bottom: 0;
+  font-size: 12pt;
+}
+
+.logoGSTW{
+  zoom: 40%; 
+  vertical-align: middle;
+}
+
+.logosiemens{
+  zoom: 60%; 
+  vertical-align: middle; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 5%;
+  background-color: #F0F0F0;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.footer-right {
+  flex: 0 0 80px; /* el último valor define el ancho máximo */
+  display: flex;
+
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.logofooter{
+  zoom: 15%; 
+  margin-left: 20%;
+}
+
+.a:visited .instagramlink{
+  text-align: left; 
+  font-size: 5pt; 
+  color: black;
+}
+
+.imgside{
+  zoom: 40%;
+}
+
+.personalizedtitle{
+  zoom: 50%;
+  margin-bottom: 2%;
+}
+
+.tablepartners{
+ width: 90%;
+ margin-left:5%;
+ margin-bottom: 3%;
+}
+
+.logoresize{
+  zoom: 50%;
+}
+
+.logospartnerssmall{
+  zoom: 16%;
+}
+
+.subtitle{
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.imgsidestem{
+  zoom: 55%;
+  border-radius: 8%;
+  margin-left: 6%;
+}
